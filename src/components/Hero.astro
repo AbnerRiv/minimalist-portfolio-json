@@ -1,7 +1,8 @@
 ---
 import { basics } from "@cv";
 
-const { name, label } = basics;
+const { name, label, image, location, profiles, phone, email } = basics;
+const {city, region} = location
 ---
 
 <section>
@@ -9,6 +10,27 @@ const { name, label } = basics;
     <div class="info">
       <h1>{name}</h1>
       <h1>{label}</h1>
+      <span>
+        <!-- robar icon -->
+        {city}, {region}
+      </span>
+      <figure>
+        <img src={image} alt={name}>
+      </figure>
+      <footer>
+        {
+          email && (
+            <a
+            href={`mailto:${email}`}
+            title={`Send an email to ${name} at ${email}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            >
+              <!-- Robar icon -->
+            </a>
+          )
+        }
+      </footer>
     </div>
   </div>
 </section>

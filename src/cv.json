@@ -1,55 +1,66 @@
 {
     "basics": {
       "name": "Abner Rivera",
-      "label": "Front-End Developer con mas de 2 años de experiencia",
+      "label": "Front-End Developer with +2 years of experience",
       "image": "https://avatars.githubusercontent.com/u/67245041?v=4",
       "email": "abnertinoco2107@gmail.com",
-      "phone": "(912) 555-4321",
-      "url": "https://johndoe.com",
-      "summary": "A summary of John Doe…",
+      "phone": "+505 5882-6310",
+      "url": "to be determined",
+      "summary": "With over 2 years of web development experience, I am currently working as a front-end software developer.I am also seeking an opportunity to advance my career and become a full-stack web developer. I live in Managua, Nicaragua, and have professional experience with the following technologies: Vue.js and Angular.js.",
       "location": {
-        "address": "2712 Broadway St",
-        "postalCode": "CA 94115",
-        "city": "San Francisco",
-        "countryCode": "US",
-        "region": "California"
+        "address": "Bosques de Altamira",
+        "postalCode": "00000",
+        "city": "Managua",
+        "countryCode": "NI",
+        "region": "Nicaragua"
       },
       "profiles": [{
-        "network": "Twitter",
-        "username": "john",
-        "url": "https://twitter.com/john"
+        "network": "LinkedIn",
+        "username": "Abner Rivera",
+        "url": "https://www.linkedin.com/in/abner-rivera-6338041b4/"
       }]
     },
     "work": [{
-      "name": "Company",
-      "position": "President",
-      "url": "https://company.com",
-      "startDate": "2013-01-01",
-      "endDate": "2014-01-01",
-      "summary": "Description…",
+      "name": "OOQIA",
+      "position": "Web Developer",
+      "url": "https://www.ooqia.com",
+      "startDate": "2021-09-01",
+      "endDate": "2023-05-01",
+      "summary": "I started as an intern, studying the intricacies of real-world web development. Then, I was assigned to a development team where I gained experience working with Vue.js, Angular.js, Tailwind CSS, WordPress, Storybook, Pinia, Vuex, Postman, REST API integration, and Jest",
       "highlights": [
-        "Started the company"
+        ""
+      ]
+    },
+    {
+      "name": "AIM Services, S.A",
+      "position": "Frontend Developer",
+      "url": "https://www.linkedin.com/company/aim-services-s.a/",
+      "startDate": "2021-05-01",
+      "endDate": "Present",
+      "summary": "It's a remote position where I develop the front end of projects using Vue.js, Angular.js, and Tailwind CSS.",
+      "highlights": [
+        ""
       ]
     }],
     "volunteer": [{
-      "organization": "Organization",
-      "position": "Volunteer",
-      "url": "https://organization.com/",
+      "organization": "Code in Place",
+      "position": "Volunteer Section Leader",
+      "url": "https://www.linkedin.com/school/stanford-code-in-place/",
       "startDate": "2012-01-01",
       "endDate": "2013-01-01",
-      "summary": "Description…",
+      "summary": "I taught online weekly interactive learning sessions on Python",
       "highlights": [
-        "Awarded 'Volunteer of the Month'"
+        ""
       ]
     }],
     "education": [{
-      "institution": "University",
-      "url": "https://institution.com/",
-      "area": "Software Development",
+      "institution": "Keiser University",
+      "url": "https://keiseruniversity.edu.ni/",
+      "area": "Software Engineering",
       "studyType": "Bachelor",
-      "startDate": "2011-01-01",
-      "endDate": "2013-01-01",
-      "score": "4.0",
+      "startDate": "2015-08-01",
+      "endDate": "2019-05-01",
+      "score": "3.82",
       "courses": [
         "DB1101 - Basic SQL"
       ]
@@ -84,6 +95,10 @@
     }],
     "languages": [{
       "language": "English",
+      "fluency": "Proficient"
+    },
+    {
+      "language": "Spanish",
       "fluency": "Native speaker"
     }],
     "interests": [{
