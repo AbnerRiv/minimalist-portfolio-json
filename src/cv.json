@@ -34,41 +34,40 @@
       "summary": "I started as an intern, studying the intricacies of real-world web development. Then, I was assigned to a development team where I gained experience working with Vue.js, Angular.js, Tailwind CSS, WordPress, Storybook, Pinia, Vuex, Postman, REST API integration, and Jest",
       "highlights": [
         ""
-      ]
+      ],
+      "type": "Remote"
     },
     {
       "name": "AIM Services, S.A",
       "position": "Frontend Developer",
       "url": "https://www.linkedin.com/company/aim-services-s.a/",
-      "startDate": "2021-05-01",
-      "endDate": "Present",
-      "summary": "It's a remote position where I develop the front end of projects using Vue.js, Angular.js, and Tailwind CSS.",
+      "startDate": "2023-05-01",
+      "endDate": "2024-05-01",
+      "summary": "It's a remote position where I developed the front end of projects using Vue.js, AngularJS, and Tailwind CSS. Additionally, I integrated RESTful APIs with the front end of the web",
       "highlights": [
         ""
-      ]
+      ],
+      "type": "Remote"
     }],
     "volunteer": [{
       "organization": "Code in Place",
       "position": "Volunteer Section Leader",
       "url": "https://www.linkedin.com/school/stanford-code-in-place/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
+      "startDate": "2024-04-01",
+      "endDate": "2024-05-01",
       "summary": "I taught online weekly interactive learning sessions on Python",
       "highlights": [
         ""
       ]
     }],
     "education": [{
-      "institution": "Keiser University",
+      "institution": "Keiser University - Latin American Campus",
       "url": "https://keiseruniversity.edu.ni/",
-      "area": "Software Engineering",
-      "studyType": "Bachelor",
+      "degree": "Bachelor's Degree in Software Engineering",
       "startDate": "2015-08-01",
       "endDate": "2019-05-01",
       "score": "3.82",
-      "courses": [
-        "DB1101 - Basic SQL"
-      ]
+      "courses": []
     }],
     "awards": [{
       "title": "Award",

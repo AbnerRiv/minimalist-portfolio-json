@@ -1,8 +1,70 @@
 ---
 import Section from "@/components/Section.astro";
-
+import { education } from "@cv";
+import { getFormattedDateRange } from "@/utils/FormatDate";
 ---
 
 <Section title="Education">
-    <p>Hola mundo</p>
+  <ul>
+    {
+      education.map(({ institution, url, startDate, endDate, degree }) => {
+        let { startDateFormatted, endDateFormatted } = getFormattedDateRange(
+          startDate,
+          endDate
+        );
+        return (
+          <li>
+            <article>
+              <header>
+                <a href={url} target="_blank" rel="noopener noreferrer">
+                  <h3>{institution}</h3>
+                </a>
+                <time>
+                  {startDateFormatted} - {endDateFormatted}
+                </time>
+              </header>
+
+              <footer>
+                <p>{degree}</p>
+              </footer>
+            </article>
+          </li>
+        );
+      })
+    }
+  </ul>
 </Section>
+
+<style scoped>
+  ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+  }
+
+  a {
+    color: #000;
+  }
+
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 4px;
+  }
+
+  time {
+    color: #555;
+    font-size: 0.85rem;
+    margin-left: auto;
+  }
+
+  article h3 {
+    color: #111;
+  }
+
+  article h4 {
+    font-weight: 600;
+    color: #222;
+  }
+</style>

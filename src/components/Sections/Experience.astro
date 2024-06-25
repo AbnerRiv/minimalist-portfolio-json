@@ -1,6 +1,84 @@
 ---
 import Section from "@/components/Section.astro";
-
+import { work } from "@cv";
+import { getFormattedDateRange } from "@/utils/FormatDate";
 ---
 
-<Section title="Experience"></Section>
+<Section title="Experience">
+  <ul>
+    {
+      work.map(({ name, url, type, startDate, endDate, position, summary }) => {
+        let { startDateFormatted, endDateFormatted } = getFormattedDateRange(
+          startDate,
+          endDate
+        );
+        return (
+          <li>
+            <article>
+              <header>
+                <div class="name-type-container">
+                  <a href={url} target="_blank" rel="noopener noreferrer">
+                    <h3>{name}</h3>
+                  </a>
+                  <h4 class="type">{type}</h4>
+                  <time>
+                    {startDateFormatted} - {endDateFormatted}
+                  </time>
+                </div>
+                <h4 class="position">{position}</h4>
+              </header>
+
+              <footer>
+                <p>{summary}</p>
+              </footer>
+            </article>
+          </li>
+        );
+      })
+    }
+  </ul>
+</Section>
+
+<style scoped>
+  ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+  }
+
+  h4.type {
+    display: inline-block;
+    padding: 3px 7px 3px 7px;
+    background: #eee;
+    border-radius: 6px;
+  }
+
+  a {
+    color: #000;
+  }
+
+  time {
+    color: #555;
+    font-size: 0.85rem;
+    margin-left: auto;
+  }
+
+  .name-type-container {
+    display: flex;
+    column-gap: 8px;
+  }
+
+  .position {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  article h3 {
+    color: #111;
+  }
+
+  article h4 {
+    font-weight: 600;
+    color: #222;
+  }
+</style>
